@@ -32,7 +32,7 @@ ol {
 }
 
 :root {
-  --header_font: "Host Grotesk", sans-serif;
+  --main_font: "Host Grotesk", sans-serif;
   /* --descrip_font: "Sen", serif; */
   --primary_color: #1f1f1e;
   --regular_font_color: #2e2e2d;
@@ -425,8 +425,31 @@ header {
   height: 100vh;
 }
 
-.banner_text_box h1{
+.banner_text_box{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 500px;
+ 
+}
+
+
+.banner_text_box h1 {
+	font-size: 85px;
+	font-weight: 500;
+	font-family: var(--main_font);
+	color: var(--fff_white);
+  letter-spacing: 1px;
+	
+}
+
+.banner_text_box h2{
+  font-size: 35px;
+  font-weight: 500;
+  font-family: var(--main_font);
+  color: var(--fff_white);
   
+ 
 }
 
 /* .about {
