@@ -166,10 +166,29 @@
 
 /* +++    CSS END   +++ */
 
-/* ====   CSS START ==== */
+/* ==== BANNER  CSS START ==== */
+
+header{
+	height: auto; 
+}
+
+.banner_text_box {
+	gap: 30px;
+	padding: 202px 0 ;
+}
+
+.banner_text_box h1 {
+	font-size: 58px;
+}
+
+.banner_text_box h2 {
+	font-size: 22px;
+}
 
 
-/* +++    CSS END   +++ */
+
+/* +++ BANNER CSS END   +++ */
+
 
 /* ====   CSS START ==== */
 
@@ -202,10 +221,31 @@
 
 /* +++    CSS END   +++ */
 
-/* ====   CSS START ==== */
+/* ==== BANNER  CSS START ==== */
 
+header{
+	height: auto; 
+}
 
-/* +++    CSS END   +++ */
+.banner_text_box {
+	gap: 30px;
+	padding: 202px 0 90px;
+}
+
+.banner_text_box h1 {
+	font-size: 52px;
+}
+
+.banner_text_box h2 {
+	font-size: 22px;
+}
+
+.banner_text_box {
+	gap: 30px;
+	padding: 202px 0 90px;
+}
+
+/* +++ BANNER CSS END   +++ */
 
 /* ====   CSS START ==== */
 
