@@ -1,0 +1,117 @@
+/* ..................    FONT LNKS  START  .................... */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* ..................    FONT LNKS  END  .................... */
+
+
+/* ???????????????     COMMON  CSS  START     ?????????????? */
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+  padding: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --header_font:"Dosis", sans-serif;
+  --descrip_font: "Sen", serif;
+  --primary_color: #252523;
+  --sceondry_color: #FEFDF8;
+  --tag_color: #C59452;
+  --base_color: #F7F3E8;
+  --regular_font_color: #706F6B;
+  --fff_white: #fff;
+  --000_black: #000;
+}
+
+.common_heading h2 {
+  font-size: 80px;
+  font-weight: 500;
+  font-family: var(--header_font);
+  color: var(--fff_white);
+  letter-spacing: 1PX;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+section{
+  overflow: hidden;}
+
+/* ???????????????     COMMON  CSS  END     ?????????????? */
+
+/* (((((((((((((((((     CSS START     )))))))))))))))) */
+
+
+
+/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+
+
+/* (((((((((((((((((     CSS START     )))))))))))))))) */
+
+
+
+/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+
+
+/* (((((((((((((((((     CSS START     )))))))))))))))) */
+
+
+
+/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+
+
+/* (((((((((((((((((     CSS START     )))))))))))))))) */
+
+
+
+/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+
+
+/* (((((((((((((((((     CSS START     )))))))))))))))) */
+
+
+
+/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+
+
+/* (((((((((((((((((     CSS START     )))))))))))))))) */
+
+
+
+/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+
+
+/* (((((((((((((((((     CSS START     )))))))))))))))) */
+
+
+
+/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+
+
+/* (((((((((((((((((     CSS START     )))))))))))))))) */
+
+
+
+/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+
+
+
