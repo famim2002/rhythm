@@ -109,17 +109,16 @@ header {
   padding: 100px 0;
 }
 
-
-.team_card  {
-	position: relative;
-  padding: 0 0 50px;
+.team_card {
+  position: relative;
 }
 
-
-
-  .team_content .row_b {
-    padding: 0 0 50px;
-  }
+.team_content .row_a {
+  padding: 50px 0 100px;
+}
+.team_content .row_b {
+  padding: 0 0 50px;
+}
 
 .team_descript h2 {
   max-width: 400px;
@@ -136,19 +135,17 @@ header {
   font-weight: 400;
   font-family: var(--main_font);
   color: var(--primary_color);
-
 }
 
 .team_card .card_img img {
   width: 170px;
 }
 
-
 .profile_image {
-	max-width: fit-content;
-	overflow: hidden;
-	transform: translate(62px, -463px);
-	position: absolute;
+  max-width: fit-content;
+  overflow: hidden;
+  transform: translate(62px, -463px);
+  position: absolute;
 }
 
 .profile_image img {
@@ -163,11 +160,8 @@ header {
   top: 0%;
   left: -4%;
   background-color: #00000092;
- 
   opacity: 0;
   transition: all linear .3s;
-
-
 }
 
 .profile_image:hover .team_descript_card {
@@ -191,7 +185,6 @@ header {
   letter-spacing: 1px;
   text-align: center;
   padding-top: 20px;
-
 }
 
 .social_icons {
@@ -199,7 +192,6 @@ header {
   gap: 22px;
   justify-content: center;
   padding-top: 15px;
-
 }
 
 .social_icons a {
@@ -209,7 +201,6 @@ header {
 
 .social_icons a:hover {
   color: var(--fff_white);
-
 }
 
 .profile_info {
@@ -235,22 +226,125 @@ header {
 }
 
 
-
 /* :::::::<<<<<<<<<<    TEAM  CSS END     >>>>>>>>>>:::::: */
 
 
-/* (((((((((((((((((     CSS START     )))))))))))))))) */
+/* (((((((((((((((((   OUR_SERVICES  CSS START     )))))))))))))))) */
+#OUR_SERVICES{
+  padding: 100px 0;
+}
+
+.service_header{
+  text-align: center;
+}
+.service_header h2{
+  font-size: 60px;
+  font-weight: 600;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+}
+
+.service_header p{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--main_font);
+  color: var(--sceondry_color);
+  padding: 25px 0 60px;
+}
+.service_card{
+  text-align: center;
+}
+
+.service_card .card_icon{
+  font-size: 55px;
+  padding-bottom: 15px;
+}
+
+.service_card h3{
+  font-size: 28px;
+  font-weight: 500;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.service_card p{
+  font-size: 17px;
+  font-weight: 400;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+  text-align: center;
+  padding-bottom: 15px;
+
+}
+.service_card a{
+  font-size: 17px;
+  font-weight: 300;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+  margin-bottom: 25px;
+  padding: 20px 0px;
+}
+
+/* :::::::<<<<<<<<<<    OUR_SERVICES  CSS END     >>>>>>>>>>:::::: */
 
 
+/* (((((((((((((((((   EXCLUSIVE  CSS START     )))))))))))))))) */
 
-/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+#EXCLUSIVE {
+  background-color: var(--primary_color);
+  margin: 100px 0;
+  padding:50px 0 100px;
+}
+.exclusive_img{
+  position: relative;
+
+}
+
+.exclusive_img .img_a{
+  max-width: 400px;
+}
+.exclusive_img .img_b {
+	position: absolute;
+	transform: translate(-145px , 143px);
+	max-width: 50%;
+}
+
+.exclusive_text{
+  padding-top: 150px;
+  padding-left: 50px;
+}
+
+.exclusive_text h2{
+  font-size: 45px;
+  font-weight: 600;
+  font-family: var(--main_font);
+  color: var(--fff_white);
+
+}
+
+.exclusive_text p{
+  font-size: 20px;
+  font-weight: 300;
+  font-family: var(--main_font);
+  color: var(--fff_white);
+  padding: 40px 0 50px;
+
+}
+
+.exclusive_text a{
+  font-size: 22px;
+  font-weight: 300;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+  background-color: #f2f2e9;
+  padding: 15px  25px;
+
+}
 
 
-/* (((((((((((((((((     CSS START     )))))))))))))))) */
-
-
-
-/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+/* :::::::<<<<<<<<<<   EXCLUSIVE   CSS END     >>>>>>>>>>:::::: */
 
 
 /* (((((((((((((((((     CSS START     )))))))))))))))) */
