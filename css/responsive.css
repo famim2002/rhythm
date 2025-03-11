@@ -190,10 +190,14 @@ header{
 /* +++ BANNER CSS END   +++ */
 
 
-/* ====   CSS START ==== */
+/* ==== TEAM  CSS START ==== */
+#TEAM {
+	padding: 30px 0;
+}
 
 
-/* +++    CSS END   +++ */
+
+/* +++  TEAM  CSS END   +++ */
 
 /* ====   CSS START ==== */
 
@@ -247,10 +251,43 @@ header{
 
 /* +++ BANNER CSS END   +++ */
 
-/* ====   CSS START ==== */
+/* ====  TEAM CSS START ==== */
+#TEAM {
+	padding: 0px 0;
+}
 
 
-/* +++    CSS END   +++ */
+.team_content .row_a {
+	padding: 50px 0 50px;
+}
+
+.team_descript h2 {
+	max-width: 190px;
+	font-size: 35px;
+	font-weight: 600;
+	font-family: var(--main_font);
+	color: var(--primary_color);
+	line-height: 50px;
+	padding-bottom: 25px;
+}
+
+.team_descript p {
+	max-width: 304px;
+	font-size: 17px;
+	padding-bottom: 15px;
+}
+
+
+.team_card  {
+  padding: 0 0 100px;
+}
+
+.profile_image {
+	transform: translate(30px, -485px);
+}
+
+
+/* +++   TEAM CSS END   +++ */
 
 /* ====   CSS START ==== */
 

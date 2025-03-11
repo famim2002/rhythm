@@ -37,7 +37,7 @@ ol {
   --primary_color: #1f1f1e;
   --regular_font_color: #2e2e2d;
   --sceondry_color: #777775;
-  --fff_white: #fff;
+  --fff_white: #f2f2e9;
   --000_black: #000;
 }
 
@@ -51,13 +51,10 @@ ol {
   padding-bottom: 60px;
 }
 
-section{
+section {
   overflow: hidden;
 }
 
-body{
-  background-color: #000;
-}
 
 /* ???????????????     COMMON  CSS  END     ?????????????? */
 
@@ -71,15 +68,13 @@ body{
 
 /* (((((((((((((((((    BANNER CSS START     )))))))))))))))) */
 
-
-
 header {
   background: url("../img/banner_back.jpg") no-repeat fixed center / cover;
   text-align: center;
   height: 100vh;
 }
 
-.banner_text_box{
+.banner_text_box {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -89,33 +84,161 @@ header {
 
 
 .banner_text_box h1 {
-	font-size: 100px;
-	font-weight: 500;
-	font-family: var(--main_font);
-	color: var(--fff_white);
+  font-size: 100px;
+  font-weight: 500;
+  font-family: var(--main_font);
+  color: var(--fff_white);
   letter-spacing: 1.5px;
-	
+
 }
 
-.banner_text_box h2{
+.banner_text_box h2 {
   font-size: 25px;
   font-weight: 400;
   font-family: var(--main_font);
   color: var(--sceondry_color);
-  
- 
 }
-
-/* .about {
-  background: url("https://unsplash.it/1080/720/?image=345") no-repeat fixed center / cover;
-  color: white;
-}
-
- */
 
 /* :::::::<<<<<<<<<<    BANNER  CSS END     >>>>>>>>>>:::::: */
 
 
+/* (((((((((((((((((   TEAM  CSS START     )))))))))))))))) */
+
+
+#TEAM {
+  padding: 100px 0;
+}
+
+
+.team_card  {
+	position: relative;
+  padding: 0 0 50px;
+}
+
+
+
+  .team_content .row_b {
+    padding: 0 0 50px;
+  }
+
+.team_descript h2 {
+  max-width: 400px;
+  font-size: 45px;
+  font-weight: 600;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+  line-height: 60px;
+}
+
+.team_descript p {
+  max-width: 400px;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+
+}
+
+.team_card .card_img img {
+  width: 170px;
+}
+
+
+.profile_image {
+	max-width: fit-content;
+	overflow: hidden;
+	transform: translate(62px, -463px);
+	position: absolute;
+}
+
+.profile_image img {
+  max-width: 300px;
+  transition: all linear .3s;
+}
+
+.team_descript_card {
+  padding: 93px 54px;
+  width: fit-content;
+  position: absolute;
+  top: 0%;
+  left: -4%;
+  background-color: #00000092;
+ 
+  opacity: 0;
+  transition: all linear .3s;
+
+
+}
+
+.profile_image:hover .team_descript_card {
+  opacity: 1;
+}
+
+.team_descript_card h3 {
+  font-size: 27px;
+  font-weight: 500;
+  font-family: var(--main_font);
+  color: #f2f2e9;
+  text-align: center;
+}
+
+.team_descript_card p {
+  width: 220px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--main_font);
+  color: #f2f2e9;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.social_icons {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  padding-top: 15px;
+
+}
+
+.social_icons a {
+  font-size: 25px;
+  color: #b7b7b4;
+}
+
+.social_icons a:hover {
+  color: var(--fff_white);
+
+}
+
+.profile_info {
+  text-align: center;
+}
+
+.profile_info h2 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.profile_info h3 {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+
+/* :::::::<<<<<<<<<<    TEAM  CSS END     >>>>>>>>>>:::::: */
+
+
 /* (((((((((((((((((     CSS START     )))))))))))))))) */
 
 
@@ -158,4 +281,29 @@ header {
 /* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
 
 
+/* (((((((((((((((((     CSS START     )))))))))))))))) */
 
+
+
+/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+
+
+/* (((((((((((((((((     CSS START     )))))))))))))))) */
+
+
+
+/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+
+
+/* (((((((((((((((((     CSS START     )))))))))))))))) */
+
+
+
+/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+
+
+/* (((((((((((((((((     CSS START     )))))))))))))))) */
+
+
+
+/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
