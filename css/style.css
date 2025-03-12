@@ -287,6 +287,9 @@ header {
   padding: 20px 0px;
 }
 
+
+
+
 /* :::::::<<<<<<<<<<    OUR_SERVICES  CSS END     >>>>>>>>>>:::::: */
 
 
@@ -347,18 +350,63 @@ header {
 /* :::::::<<<<<<<<<<   EXCLUSIVE   CSS END     >>>>>>>>>>:::::: */
 
 
-/* (((((((((((((((((     CSS START     )))))))))))))))) */
+/* (((((((((((((((((   CREATIVE  CSS START     )))))))))))))))) */
+
+#CREATIVE{
+  margin: 50px 30px 100px;
+  padding: 150px 0;
+  background-color: #ececea;
+}
+
+#CREATIVE h2{
+  font-size: 45px;
+  font-weight: 500;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+  padding-bottom: 30px;
+}
+
+#CREATIVE p{
+  max-width: 600px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--main_font);
+  color: var(--sceondry_color);
+
+}
+
+#CREATIVE a{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--main_font);
+  color: var(--fff_white);
+  background-color: var(--primary_color);
+  padding: 20px 40px;
+}
 
 
-
-/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
-
-
-/* (((((((((((((((((     CSS START     )))))))))))))))) */
+/* :::::::<<<<<<<<<<   CREATIVE   CSS END     >>>>>>>>>>:::::: */
 
 
+/* (((((((((((((((((   PROCESS  CSS START     )))))))))))))))) */
 
-/* :::::::<<<<<<<<<<      CSS END     >>>>>>>>>>:::::: */
+.process_content h2{
+  font-size: 45px;
+  font-weight: 500;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+  padding-bottom: 20px;
+}
+
+.process_content p{
+  font-size: 45px;
+  font-weight: 500;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+  padding-bottom: 20px;
+}
+
+/* :::::::<<<<<<<<<<    PROCESS  CSS END     >>>>>>>>>>:::::: */
 
 
 /* (((((((((((((((((     CSS START     )))))))))))))))) */
