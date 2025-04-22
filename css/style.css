@@ -71,7 +71,7 @@ section {
 header {
   background: url("../img/banner_back.jpg") no-repeat fixed center / cover;
   text-align: center;
-  height: 100vh;
+  height: 100vh; 
 }
 
 .banner_text_box {
@@ -390,6 +390,10 @@ header {
 
 /* (((((((((((((((((   PROCESS  CSS START     )))))))))))))))) */
 
+#PROCESS{
+  padding: 0 0 100px ;
+}
+
 .process_content h2{
   font-size: 45px;
   font-weight: 500;
@@ -399,11 +403,87 @@ header {
 }
 
 .process_content p{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--main_font);
+  color: var(--sceondry_color);
+}
+
+.process_content {
+  position: relative;
+  font-size: 65px;
+  text-align: center;
+  
+}
+.process_content .process_part {
+  padding: 50px 0;
+}
+
+
+.process_content h3{
+  font-size: 25px !important;
+  font-weight: 500;
+  font-family: var(--main_font);
+  color: var(--primary_color);
+  text-align: center;
+  padding: 25px 0 ;
+}
+
+.choose_image_a{
+ 
+  overflow: hidden;
+  width: fit-content;
+}
+
+.choose_image_a img{
+  max-width: 60%;
+}
+
+.choose_image_b {
+  position: absolute;
+	overflow: hidden;
+	width: fit-content;
+	transform: translate(102px, -158px);
+}
+
+.choose_image_b img{
+  max-width: 60%;
+}
+
+.choose_image_c {
+  position: absolute;
+	overflow: hidden;
+	width: fit-content;
+	transform: translate(475px, -285px);
+	
+}
+
+.choose_image_c img{
+  max-width: 60%;
+}
+
+.choose_head{
   font-size: 45px;
   font-weight: 500;
   font-family: var(--main_font);
   color: var(--primary_color);
+  padding-bottom: 65px;
+}
+
+.choose_tag{
+  font-size: 28px;
+  font-weight: 500;
+  font-family: var(--main_font);
+  color: var(--primary_color);
   padding-bottom: 20px;
+}
+
+.choose_descrip{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--main_font);
+  color: var(--sceondry_color);
+  padding-bottom: 25px;
 }
 
 /* :::::::<<<<<<<<<<    PROCESS  CSS END     >>>>>>>>>>:::::: */
